@@ -94,7 +94,6 @@ p:last-child {
   margin-left: auto;
   margin-right: auto;
   max-width: 584px;
-  background-attachment: local;
   background-image: url('../images/ornament-gray.png');
   background-repeat: no-repeat;
   background-position: bottom left 125px;
@@ -150,8 +149,6 @@ p:last-child {
   }
 
   .about-us {
-    margin-left: auto;
-    margin-right: auto;
     max-width: 944px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -168,8 +165,6 @@ p:last-child {
 
 @media screen and (min-width: 1280px) {
   .about-us {
-    margin-left: auto;
-    margin-right: auto;
     max-width: 1440px;
     padding-top: 75px;
     padding-bottom: 80px;
@@ -193,8 +188,6 @@ p:last-child {
 
 @media screen and (min-width: 1440px) {
   .about-us {
-    margin-left: auto;
-    margin-right: auto;
     max-width: 1440px;
     background-position: bottom left 895px;
   }
