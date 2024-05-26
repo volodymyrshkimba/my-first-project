@@ -4,9 +4,76 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>Hello. This dfgdfis my first project</h1>
+    <section class="about-us" id="about-us">
+      <div class="container about-us-container">
+        <div class="about-us-text-wrapper">
+          <h2 class="about-us-title">About Us</h2>
+          <p class="about-us-desc">
+            The store "Vyshyvanka Vibes" is a place where traditional Ukrainian
+            vyshyvanka comes to life with new zest and style. Our store offers a
+            wide selection of high-quality and authentic embroidery, which
+            combines the elegance of traditional needlework and modern design.
+          </p>
+          <p class="about-us-desc">
+            In "Vyshyvanka Vibes" you will find various models of embroidery,
+            from classic to modern, corresponding to the latest fashion trends.
+            Our embroidery is made using natural fabrics and is embroidered by
+            highly qualified craftsmen who convey the beauty of Ukrainian
+            culture in every detail.We believe that vyshyvanka is not just
+            clothing, but a symbol of national pride, the heritage of our
+            ancestors and a way of expressing one's individuality. Each
+            embroidery from "Vyshyvanka Vibes" has its own unique history and
+            symbolism, which gives it a special meaning.
+          </p>
+        </div>
+        <div class="about-us-img-thumb">
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="
+                ./images/about_us-desktop1440.jpg    1x,
+                ./images/about_us-desktop1440@2x.jpg 2x
+              "
+            />
+
+            <source
+              media="(min-width: 1280px)"
+              srcset="
+                ./images/about_us-desktop1280.jpg    1x,
+                ./images/about_us-desktop1280@2x.jpg 2x
+              "
+            />
+
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ./images/about_us-tablet.jpg    1x,
+                ./images/about_us-tablet@2x.jpg 2x
+              "
+            />
+
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ./images/about_us-phone.jpg    1x,
+                ./images/about_us-phone@2x.jpg 2x
+              "
+            />
+
+            <img src="./images/about_us-phone.jpg" alt="vishivanka" />
+          </picture>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
